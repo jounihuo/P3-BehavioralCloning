@@ -13,6 +13,10 @@ Keras was used to create a CNN model that uses the center camera images from the
 - Cropping
 - Normalization
 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
+
+
 After this a generator was used to read the images from the source folder. To ensure a more robust model the input image can be randomly flipped left to right and the steering angle accordingly. This means that the number of training images can be quite large to ensure smooth path. Images were trained on a model described in the figure 1 below. The code can be found from p3_bc_train.py.
 
 ## Training and behavioral cloning
