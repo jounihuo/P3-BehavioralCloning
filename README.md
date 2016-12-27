@@ -21,6 +21,10 @@ Example of a cropped image.
 
 After this a generator was used to read the images from the source folder. To ensure a more robust model the input image can be randomly flipped left to right and the steering angle accordingly. This means that the number of training images can be quite large to ensure smooth path. Images were trained on a model described in the figure 1 below. The code can be found from p3_bc_train.py.
 
+![alt text](https://github.com/jounihuo/P3-BehavioralCloning/blob/master/nn.jpg "Model")
+
+Overall model.
+
 ## Training and behavioral cloning
 
 Model was trained with a local computer using a GTX1100 GPU. A single epoch of 20 000 images took roughly a 22 seconds. After each trainig the model was tested on the test track on the simulator. When the model failed, a number of training images were taken from the critical area.
