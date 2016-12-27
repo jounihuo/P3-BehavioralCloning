@@ -5,6 +5,7 @@ Udacity project for Selfdriving car Nanodegree.
 ## Introduction
 
 The goal of this project was to train a Keras model with simulator input images to control the steering angle of the simulator car.
+
 ![alt text](https://github.com/jounihuo/P3-BehavioralCloning/blob/master/center_2016.jpg "Example image")
 
 ## Implementation
@@ -14,7 +15,8 @@ Keras was used to create a CNN model that uses the center camera images from the
 - Cropping
 - Normalization to -1.0 ... 1.0
 
-![alt text](https://github.com/jounihuo/P3-BehavioralCloning/blob/master/center_2016.jpg "Cropped image")
+![alt text](https://github.com/jounihuo/P3-BehavioralCloning/blob/master/cropped_2016.jpg "Cropped image")
+
 Example of a cropped image.
 
 After this a generator was used to read the images from the source folder. To ensure a more robust model the input image can be randomly flipped left to right and the steering angle accordingly. This means that the number of training images can be quite large to ensure smooth path. Images were trained on a model described in the figure 1 below. The code can be found from p3_bc_train.py.
