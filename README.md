@@ -33,4 +33,6 @@ Model was trained with a local computer using a GTX1100 GPU with 24682 images. A
 
 The model was tested on the simulator track which was also used to collect the images. In addition to normal driving, several recovery patterns were recorded in problem areas. About 6-10 recoveries were required to correct behaviour patterns. It took some effort to ensure that the images recorded did not include false data that would contradict optimal behavior. Adam optimiser was used to limit parameter tuning. After some trial and error the max pooling layer were added to the model which improved the performance and stability of the steering. Also final number of epochs was raised from the initial 5 to 7 when the input image number started to be close to 20000. Initially there was only 5000 images, so over 15000 were collected just from the recovery training.
 
+To battle overfitting, two dropout layers were used. This was more efficient as to use train/test/valid split as the final result could only be tested with the simulator and a single number of RMSE or similar does not show the full performance of the model.
+
 
