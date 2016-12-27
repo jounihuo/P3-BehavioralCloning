@@ -15,7 +15,7 @@ Keras was used to create a CNN model that uses the center camera images from the
 - Cropping
 - Normalization to -1.0 ... 1.0
 
-![alt text](https://github.com/jounihuo/P3-BehavioralCloning/blob/master/cropped_2016.jpg "Cropped image")
+![alt text](https://github.com/jounihuo/P3-BehavioralCloning/blob/master/cropped_example_2016.jpg "Cropped image")
 
 Example of a cropped image.
 
