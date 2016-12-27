@@ -48,7 +48,6 @@ def batch_generator(Y, image_paths, batch_size=128):
             ctr += 1
         yield X_train, y_train
 
-
 #Importing Keras modules and functions
 from keras.models import Sequential
 from keras.layers import Convolution2D, MaxPooling2D
