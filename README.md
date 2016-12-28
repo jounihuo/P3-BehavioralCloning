@@ -27,7 +27,7 @@ The model consist of two-dimensional convolutions (blue), max pooling layers (or
 
 ## Training and behavioral cloning
 
-Model was trained with a local computer using a GTX1100 GPU with 24682 images. A single epoch of 20 000 images took roughly a 22 seconds. After each trainig the model was tested on the test track on the simulator. When the model failed, a number of training images were taken from the critical area. It was quite fast turnaround time for the simulation.
+Model was trained with a local computer using a GTX1060 GPU with 24682 images. A single epoch of 20 000 images took roughly a 22 seconds. After each trainig the model was tested on the test track on the simulator. When the model failed, a number of training images were taken from the critical area. It was quite fast turnaround time for the simulation.
 
 ## Model testing and improvements
 
