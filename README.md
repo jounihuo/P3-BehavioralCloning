@@ -25,11 +25,12 @@ After this a generator was used to read the images from the source folder. To en
 
 The model consist of two-dimensional convolutions (blue), max pooling layers (orange), dropout layers (purple), dense layer (green) and a single linear output (red).
 
-> Layer (type)                  |   Output Shape      |    Param #  |   Connected to                     
-====================================================================================================
-convolution2d_1 (Convolution2D) | (None, 68, 318, 16)  | 448   |      convolution2d_input_1[0][0]      
-____________________________________________________________________________________________________
-elu_1 (ELU)                     | (None, 68, 318, 16)  | 0     |      convolution2d_1[0][0]            
+
+
+Layer (type)    |   Output Shape      |    Param #  |   Connected to |                    
+| ------------- |:-------------------:| -----------:|    -----------:|
+convolution2d_1 (Convolution2D) | (None, 68, 318, 16)  | 448   |      convolution2d_input_1[0][0]  |    
+elu_1 (ELU)                     | (None, 68, 318, 16)  | 0     |      convolution2d_1[0][0]         |   
 ____________________________________________________________________________________________________
 batchnormalization_1 (BatchNorma (None, 68, 318, 16)   32          elu_1[0][0]                      
 ____________________________________________________________________________________________________
