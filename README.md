@@ -23,8 +23,7 @@ After this a generator was used to read the images from the source folder. To en
 
 ![alt text](https://github.com/jounihuo/P3-BehavioralCloning/blob/master/nn.jpg "Model")
 
-The model consist of two-dimensional convolutions (blue), max pooling layers (orange), dropout layers (purple), dense layer (green) and a single linear output (red).
-
+The model consist of two-dimensional convolutions (blue), max pooling layers (orange), dropout layers (purple), dense layer (green) and a single linear output (red). In the first three convolution layers the batches are also normalized. The full description of the model and dimensions is shown in the table below.
 
 
 Layer (type)    |   Output Shape      |    Param #  |   Connected to |                    
