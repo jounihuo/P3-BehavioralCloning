@@ -1,4 +1,4 @@
-# Project 3 - Behavioral Cloning
+# Behavioral Cloning
 
 Udacity project for Selfdriving car Nanodegree.
 
